@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andrew\\source\\repos\\dotnet-api\\dotnet-api.csproj": {}
+    "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andrew\\source\\repos\\dotnet-api\\dotnet-api.csproj": {
+    "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andrew\\source\\repos\\dotnet-api\\dotnet-api.csproj",
+        "projectUniqueName": "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
         "projectName": "dotnet-api",
-        "projectPath": "C:\\Users\\andrew\\source\\repos\\dotnet-api\\dotnet-api.csproj",
+        "projectPath": "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
         "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andrew\\source\\repos\\dotnet-api\\obj\\",
+        "outputPath": "c:\\Users\\andrew\\source\\repos\\dotnetapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,14 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
