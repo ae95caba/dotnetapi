@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {}
+    "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {
+    "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
+        "projectUniqueName": "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
         "projectName": "dotnet-api",
-        "projectPath": "c:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
+        "projectPath": "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
         "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\andrew\\source\\repos\\dotnetapi\\obj\\",
+        "outputPath": "C:\\Users\\andrew\\source\\repos\\dotnetapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -48,10 +48,16 @@
               "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
