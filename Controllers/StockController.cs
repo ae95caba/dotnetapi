@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using dotnet_api.Data;
+using dotnet_api.Mappers;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -22,7 +23,8 @@ namespace dotnet_api.Controllers
         }
         [HttpGet]
         public IActionResult GetALL(){
-            var stocks = _context.Stocks.ToList();
+            //Select is the same thing as a map on js
+            var stocks = _context.Stocks.ToList().Select( s => s.ToStockDto());
             return Ok(stocks);
         }
         [HttpGet("({id})")]
@@ -31,7 +33,7 @@ namespace dotnet_api.Controllers
             if(stock == null){
                 return NotFound();
             }
-            return Ok(stock);
+            return Ok(stock.ToStockDto());
         }
     }
 }
