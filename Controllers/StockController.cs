@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using dotnet_api.Data;
 using dotnet_api.Mappers;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.EntityFrameworkCore;
 
 
 namespace dotnet_api.Controllers
@@ -34,6 +34,13 @@ namespace dotnet_api.Controllers
                 return NotFound();
             }
             return Ok(stock.ToStockDto());
+        }
+        [HttpPost]
+        public IActionResult Create([FromBody] CreateStockRequestDto stockDto) {
+            var stockModel = stockDto.ToStockFromCreateDto();
+            _context.Stocks.Add(stockModel);
+            _context.SaveChanges();
+            return CreatedAtAction(nameof(GetById),new{id=stockModel.Id},stockModel.ToStockDto());
         }
     }
 }

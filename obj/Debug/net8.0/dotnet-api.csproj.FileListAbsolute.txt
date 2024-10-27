@@ -200,3 +200,14 @@ C:\Users\andrew\source\repos\dotnetapi\obj\Debug\net8.0\scopedcss\bundle\dotnet-
 C:\Users\andrew\source\repos\dotnetapi\obj\Debug\net8.0\dotnet-api.csproj.Up2Date
 C:\Users\andrew\source\repos\dotnetapi\obj\Debug\net8.0\dotnet-api.genruntimeconfig.cache
 C:\Users\andrew\source\repos\dotnetapi\obj\Debug\net8.0\ref\dotnet-api.dll
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.csproj.AssemblyReference.cache
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.AssemblyInfoInputs.cache
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.AssemblyInfo.cs
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.csproj.CoreCompileInputs.cache
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.sourcelink.json
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.dll
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\refint\dotnet-api.dll
+C:\Users\andre-note\repo\dotnetapi\obj\Debug\net8.0\dotnet-api.pdb

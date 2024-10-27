@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {}
+    "C:\\Users\\andre-note\\repo\\dotnetapi\\dotnet-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj": {
+    "C:\\Users\\andre-note\\repo\\dotnetapi\\dotnet-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
+        "projectUniqueName": "C:\\Users\\andre-note\\repo\\dotnetapi\\dotnet-api.csproj",
         "projectName": "dotnet-api",
-        "projectPath": "C:\\Users\\andrew\\source\\repos\\dotnetapi\\dotnet-api.csproj",
-        "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andrew\\source\\repos\\dotnetapi\\obj\\",
+        "projectPath": "C:\\Users\\andre-note\\repo\\dotnetapi\\dotnet-api.csproj",
+        "packagesPath": "C:\\Users\\andre-note\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre-note\\repo\\dotnetapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\andre-note\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
