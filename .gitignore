@@ -1,0 +1,34 @@
+# Ignore the build outputs
+bin/
+obj/
+
+# User-specific files (e.g., Visual Studio/VSCode settings)
+.vscode/
+*.user
+*.rsuser
+*.suo
+
+# Package dependencies (NuGet)
+*.nupkg
+packages/
+
+# Log files
+*.log
+
+# Environment variables or configuration secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# Rider IDE specific files
+.idea/
+
+# Dotnet temporary and lock files
+*.lock.json
+project.lock.json
+
+# Optional: Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Optional: database files (if using SQLite)
+*.db
